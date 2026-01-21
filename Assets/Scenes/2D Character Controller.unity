@@ -269,7 +269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level1: {fileID: 1740715333}
   level2: {fileID: 887540290}
-  player: {fileID: 991472020}
+  player: {fileID: 991472016}
   spawnPoint1: {fileID: 586877560}
   spawnPoint2: {fileID: 291596999}
 --- !u!4 &514552060
