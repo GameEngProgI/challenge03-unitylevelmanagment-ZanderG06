@@ -8,7 +8,7 @@ public class LevelManager : MonoBehaviour
 
     private bool isLevel1 = true;
 
-    public Transform player;
+    public GameObject player;
     public Transform spawnPoint1;
     public Transform spawnPoint2;
     
@@ -19,14 +19,14 @@ public class LevelManager : MonoBehaviour
             level1.SetActive(false);
             level2.SetActive(true);
             isLevel1 = false;
-            player.position = spawnPoint2.position;
+            player.transform.position = spawnPoint2.position;
         }
         else
         {
             level1.SetActive(true);
             level2.SetActive(false);
             isLevel1 = true;
-            player.position = spawnPoint1.position;
+            player.transform.position = spawnPoint1.position;
         }
     }
 }
